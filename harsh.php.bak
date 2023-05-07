@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        
+            <div>
+        <label>First Name </label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label> Email Address</label>
+        <input type="Email">
+    </div>
+    <br>
+    <div>
+        <label> Password</label>
+        <input type="password">
+    </div>
+    <br>
+    <div>
+        <label>Phone Number</label>
+        <input type="tel">
+    </div>
+    <br>
+    <div>
+        <label>age</label>
+        <input type="number" maxlength="25">
+    </div>
+    <br>
+    <div>
+        <label>course</label>
+        <select>
+            <option value="web designing"> web designing</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="c++">C++</option>
+        </select>
+<br>
+        <div>
+            <label>Gender</label><br>
+            Male<input type="radio" name="Gender"><br>
+            Female<input type="radio"name="Gender">
+        </div>
+<br>
+<div>
+    <label>other course</label><br>
+    <input type="checkbox">Html <br>
+    <input type="checkbox">Java <br>
+    <input type="checkbox">css <br>
+    <input type="checkbox">bootstrap <br>
+</div>
+<br>
+<div>
+    <label>Upload File</label>
+    <input type="file" multiple>
+</div>
+<input type="button" value="submit">
+<input type="button" value="reset">
+
+
+
+    </div>
+
+
+</form>
+</body>
+</html>
